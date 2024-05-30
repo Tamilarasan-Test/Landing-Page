@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="LP Stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Star Services</h1>
+        <h3>We Provide Best Quality Services To Our Customers</h3>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="WebDev.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>We provide custom web development solutions tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <img src="GrapDes.jpg" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+                <p>Our creative team will help you with branding, logos, and graphic design.</p>
+            </div>
+            <div class="service">
+                <img src="DigMark.jpg" alt="Digital Marketing">
+                <h3>Digital Marketing</h3>
+                <p>Reach your target audience effectively with our digital marketing strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="Web Development">Web Development</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Web Development Project 1</p>
+    </footer>
+</body>
+</html>
